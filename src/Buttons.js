@@ -14,9 +14,7 @@ const Buttons = ({filteredClothes, setClothes}) => {
             <button onClick={() => filteredClothes('pants')} className="change">Pants</button>
             <button onClick={() => filteredClothes('shoes')} className="change">Shoes</button>
             <button onClick={() => filteredClothes('shirt')} className="change">Shirts</button>
-            {/* <div className="btn"> */}
             <button onClick={() => setClothes(data)} className="change">All Items</button>
-            {/* </div> */}
             </div>
         </div>
         </div>
